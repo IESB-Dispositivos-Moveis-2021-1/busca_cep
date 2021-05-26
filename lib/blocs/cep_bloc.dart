@@ -23,6 +23,7 @@ class CepBloc { // BLoC = Business Layer of Component
 
   dispose() {
     _cepFetcher.close();
+    _loading.close();
   }
 
 }
